@@ -2,7 +2,7 @@
 title: "这个模板实在是太丑了"
 date: 2026-05-22 19:00:00
 layout: post
-author: hero2415
+author: my_id
 categories:
   - 捏哈哈
 tags:

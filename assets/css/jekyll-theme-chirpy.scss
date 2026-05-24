@@ -1,0 +1,25 @@
+---
+---
+
+/* prettier-ignore */
+@use 'main
+{%- if jekyll.environment == 'production' -%}
+  .bundle
+{%- endif -%}
+';
+
+/* append your custom style below */
+/* ==========================================================================
+   左侧边栏狐耳娘毛玻璃背景（完美修复版）
+   ========================================================================== */
+
+#sidebar {
+  background-image: url('/assets/image/ba.jpg') !important;
+  background-size: cover !important;
+  background-position: center !important;
+}
+// 鼠标悬停菜单高亮
+#sidebar .nav-item.active a,
+#sidebar .nav-item:hover a {
+  color: var(--nav-cursor-color) !important;
+}
